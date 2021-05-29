@@ -1,0 +1,35 @@
+h1 {
+  color: purple;
+}
+
+.container {
+  display: flex;
+}
+
+.teamBox {
+  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+}
+
+#memberPic {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 45px;
+  top: 40px;
+}
+
+#memberName {
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+
+#memberBio {
+  position: relative;
+  top: 20px;
+  padding-left: 10px;
+}
