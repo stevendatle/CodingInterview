@@ -2,33 +2,35 @@ h1 {
   color: purple;
 }
 
-.container {
-  display: flex;
-}
-
 .teamBox {
+  display: flex;
   border: 1px solid black;
   width: 300px;
   height: 400px;
 }
 
-#memberPic {
+.teamBox p img {
   border: 1px solid black;
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  position: relative;
-  left: 45px;
-  top: 40px;
 }
 
-#memberName {
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.teamBox h2 {
+  color: red;
   position: relative;
   text-align: center;
   top: 30px;
 }
 
-#memberBio {
+.teamBox #memberBio {
+  color: purple;
   position: relative;
   top: 20px;
   padding-left: 10px;
