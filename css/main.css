@@ -26,3 +26,21 @@ img {
   width: 200px;
   height: 200px;
 }
+
+.box h2 {
+  margin: 5px;
+}
+
+.box p {
+  height: 100%;
+  margin: 5px;
+}
+
+.box span {
+  position: absolute;
+}
+
+.roles {
+  display: flex;
+  margin: 5px;
+}
